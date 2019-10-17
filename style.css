@@ -1,0 +1,86 @@
+h1{
+  text-align: center;
+  color: whitesmoke;
+  border: 3px solid #1C6EA4;
+  background-color: black;
+
+}
+body{
+  background-color: lightgrey
+}
+.header{
+   display: flex;  
+  flex-flow: row wrap;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  align-content: stretch;
+  background-color: rgb(173, 240, 128);
+  flex-wrap: nowrap;
+}
+.container1{
+   display: flex;  
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+  justify-content: space-around;
+  flex-direction: row;
+  //align-content: stretch;
+  //background-color: lightcoral;
+  flex-wrap: nowrap;
+  
+}
+.navigation_tab{
+display: flex;
+flex-direction: column;
+align-content: stretch;
+justify-content: center;
+width:25%;
+height:1000px;
+padding: 10px 10px;
+margin: 5px 5px;
+background-color: rgb(173, 240, 128);
+flex-wrap: wrap;
+}
+a{
+  
+  color: white;
+  font-size:20px;
+}
+a:hover{
+  font-size: 150%;
+}
+.container2{
+   display: flex;  
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+  flex-direction: row;
+  align-content: stretch;
+  background-color: orange;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 75%;
+  
+}
+.portfolio{
+  display: flex;
+//flex-direction: row;
+justify-content: center;
+align-items: center;
+width:25%;
+height:40%;
+padding: 10px 10px;
+margin: 5px 5px;
+background-color: lightblue;
+
+}
+
+.linkbox{
+ 	background-color:black;
+			flex-grow: 1;
+      border-style: solid;
+      border-width: 1px;
+     padding: 40% 10%;
+}
