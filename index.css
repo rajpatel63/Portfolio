@@ -64,10 +64,10 @@ a:hover{
   font-weight: bold;
   //text-align: center;
   //flex-direction: row;
-  align-content: stretch;
+  //align-content: stretch;
   background-color: orange;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   width: 25%;
   align-items: center;
   
@@ -78,7 +78,7 @@ a:hover{
   font-weight: bold;
   //text-align: center;
   flex-direction: column;
-  align-content: stretch;
+  //align-content: stretch;
   background-color: orange;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -103,8 +103,8 @@ background-color: lightblue;
 //flex-direction: row;
 justify-content: center;
 align-items: center;
-width:50%;
-height:40%;
+width:90%;
+height:80%;
 padding: 10px 10px;
 margin: 5px 5px;
 background-color: lightblue;
